@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="mobile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Bro Cars</title>
+  <meta name="description" content="Learn about Bro Cars, a trusted UK car sales marketplace helping customers buy and sell used cars quickly and securely across the United Kingdom." />
+  <meta name="keywords" content="UK car sales, buy cars UK, sell cars UK, used cars UK, car marketplace UK, Bro Cars UK" />
+  <meta name="author" content="Bro Cars UK" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.brocars.co.uk/about.html" />
+
+  <!-- Open Graph (Social Media SEO) -->
+  <meta property="og:title" content="About Bro Cars | UK Online Car Marketplace" />
+  <meta property="og:description" content="Bro Cars is a UK-based online platform connecting buyers and sellers across the United Kingdom." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.brocars.co.uk/about.html" />
+  <meta property="og:image" content="https://www.brocars.co.uk/images/cover.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Bro Cars UK" />
+  <meta name="twitter:description" content="Trusted UK car marketplace to buy and sell used cars easily." />
+
+  <!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SPLASH SCREEN -->
+<div id="splash-screen">
+  <img src="logo.png" alt="Bro Cars Logo" class="splash-logo">
+</div>
+
+<!-- MAIN WEBSITE -->
+<div id="main-content">
+
+  
+
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+   <a href="index.html" class="nav-logo" aria-label="Bro Cars Home">
+  <img src="logo.png" alt="Bro Cars UK Car Sales Logo" style="height: 150px; width: auto; margin-top: 32%; margin-left: -10%;">
+  <span class="logo-text" style="margin-left: -30px; font-size: 30px;">BRO <span class="highlight" style="font-size: 30px;">CARS</span></span>
+</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html"class="active">Home</a></li>
+      <li><a href="vehicles.html">Our vehicles</a></li>
+      <!-- <li><a href="sell.html">Sell</a></li> -->
+      <li><a href="about.html">About</a></li>
+      <li><a href="Service.html">Service</a></li>
+      <!-- <li><a href="faq.html">FAQ</a></li> -->
+      <li><a href="contact.html">Contact</a></li>
+      <!-- <li><a href="signin.html">Sign In</a></li> -->
+      <!-- <li><a href="register.html" class="btn btn-red">Register</a></li> -->
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO SLIDESHOW -->
+<section class="hero" aria-label="Hero slideshow">
+  <div class="slide active">
+    <img src="car2 copy.png" alt="Luxury car at a UK dealership" loading="eager" />
+  </div>
+  <div class="slide">
+    <img src="A4 copy.png" alt="Row of used cars for sale in the UK" loading="lazy" />
+  </div>
+  <div class="slide">
+    <img src="s4.jpeg" alt="Sports car on a UK road" loading="lazy" />
+  </div>
+ 
+
+  <div class="hero-content">
+    <h1>Buy &amp; Sell Cars<br /><span>Across the UK</span></h1>
+    <p>Affordable and reliable used cars.</p>
+    <div class="hero-buttons">
+      <a href="vehicles.html" class="btn btn-red">Our vehicles</a>
+      <!-- <a href="sell.html" class="btn btn-outline">Sell Your Car</a> -->
+    </div>
+  </div>
+
+  <div class="slide-dots" aria-label="Slideshow navigation">
+    <button class="dot active" aria-label="Slide 1"></button>
+    <button class="dot" aria-label="Slide 2"></button>
+    <button class="dot" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<!-- SEARCH SECTION
+<section class="search-section" aria-label="Search cars">
+  <div class="container">
+    <div class="search-grid">
+      <div class="search-field">
+        <label for="sBrand">Brand</label>
+        <select id="sBrand">
+          <option value="">All Brands</option>
+          <option>BMW</option>
+          <option>Audi</option>
+          <option>Mercedes</option>
+          <option>Ford</option>
+          <option>Toyota</option>
+          <option>Honda</option>
+          <option>Volkswagen</option>
+          <option>Nissan</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="sFuel">Fuel Type</label>
+        <select id="sFuel">
+          <option value="">All Fuels</option>
+          <option>Petrol</option>
+          <option>Diesel</option>
+          <option>Hybrid</option>
+          <option>Electric</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="sTrans">Transmission</label>
+        <select id="sTrans">
+          <option value="">All</option>
+          <option>Manual</option>
+          <option>Automatic</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label for="sPrice">Max Price (£)</label>
+        <input id="sPrice" type="number" placeholder="e.g. 15000" min="0" />
+      </div>
+      <div class="search-field">
+        <label>&nbsp;</label>
+        <a href="ads.html" class="btn btn-red" style="display:flex;align-items:center;justify-content:center;gap:6px">
+          🔍 Search
+        </a>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- FEATURED CARS -->
+<!-- <section class="section" aria-labelledby="featured-title">
+  <div class="container">
+    <h2 class="section-title" id="featured-title">Featured Cars</h2>
+    <p class="section-sub">Hand-picked listings from across the UK.</p>
+
+    <div class="cars-grid"> -->
+
+      <!-- Card 1
+      <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=70&auto=format&fit=crop" alt="2020 BMW 3 Series blue saloon" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>BMW 3 Series</h3>
+          <div class="car-meta">
+            <span>2020</span>
+            <span>32,000 km</span>
+            <span>Petrol</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£22,500</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 2 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&q=70&auto=format&fit=crop" alt="2019 Ford Focus in silver" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Ford Focus</h3>
+          <div class="car-meta">
+            <span>2019</span>
+            <span>48,000 km</span>
+            <span>Petrol</span>
+            <span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£9,990</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 3 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&q=70&auto=format&fit=crop" alt="2021 Toyota Corolla hybrid white" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Toyota Corolla</h3>
+          <div class="car-meta">
+            <span>2021</span>
+            <span>18,000 km</span>
+            <span>Hybrid</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£19,750</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 4 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=70&auto=format&fit=crop" alt="2018 Audi A4 grey saloon" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Audi A4</h3>
+          <div class="car-meta">
+            <span>2018</span>
+            <span>61,000 km</span>
+            <span>Diesel</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£15,200</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 5 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=70&auto=format&fit=crop" alt="2022 Tesla Model 3 electric car" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Tesla Model 3</h3>
+          <div class="car-meta">
+            <span>2022</span>
+            <span>12,000 km</span>
+            <span>Electric</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£29,900</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 6 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=600&q=70&auto=format&fit=crop" alt="2017 Volkswagen Golf hatchback" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Volkswagen Golf</h3>
+          <div class="car-meta">
+            <span>2017</span>
+            <span>74,000 km</span>
+            <span>Diesel</span>
+            <span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£8,450</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 4 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=70&auto=format&fit=crop" alt="2018 Audi A4 grey saloon" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Audi A4</h3>
+          <div class="car-meta">
+            <span>2018</span>
+            <span>61,000 km</span>
+            <span>Diesel</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£15,200</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 5 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=70&auto=format&fit=crop" alt="2022 Tesla Model 3 electric car" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Tesla Model 3</h3>
+          <div class="car-meta">
+            <span>2022</span>
+            <span>12,000 km</span>
+            <span>Electric</span>
+            <span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£29,900</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- Card 6 -->
+      <!-- <article class="car-card">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=600&q=70&auto=format&fit=crop" alt="2017 Volkswagen Golf hatchback" loading="lazy" />
+        </div>
+        <div class="car-card-body">
+          <h3>Volkswagen Golf</h3>
+          <div class="car-meta">
+            <span>2017</span>
+            <span>74,000 km</span>
+            <span>Diesel</span>
+            <span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£8,450</span>
+            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+<!-- 
+    </div>
+
+    <div style="text-align:center;margin-top:36px">
+      <a href="ads.html" class="btn btn-red">View All Listings</a>
+    </div>
+  </div>
+</section> -->
+
+<!-- INTRO -->
+<section class="intro-section" aria-label="About Bro Cars">
+  <div class="container">
+    <h2>The UK's Simple Car Marketplace</h2>
+    <p>Bro Cars is a trusted car sales company dedicated to helping customers find the perfect vehicle at the right price. Founded last year, Bro Cars focuses on offering quality used and selected new cars with reliability and transparency. Our goal is to make buying a car simple, affordable, and stress-free for everyone. Whether you are looking for a family car, a compact city vehicle, or a stylish upgrade, Bro Cars provides a range of options to suit every need and budget. We believe in honest service, great value, and building long-term relationships with our customers.</p>
+  </div>
+</section>
+
+
+<!-- <section class="brands-section">
+  <h2>Popular brands and body styles</h2>
+  <p class="subtitle">Straight to the best cars. We feature great used and new cars that tick every box.</p>
+
+  <div class="brand-grid">
+
+    <div class="brand-card">
+      <img src="https://wallpapers.com/images/hd/nissan-automotive-brand-logo-gcfu8m53losfzum1.png">
+      <h4>NISSAN</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://th.bing.com/th/id/R.22626ec6c81ac8fef140e69489b33d85?rik=d8EqMuslyXpyjA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0209%2f6440%2f9393%2fcollections%2fDiode_Dynamics_SS3_and_Stealth_Tacoma_1200x1200.png%3fv%3d1624296580&ehk=TWirb3A0LrvtFeYK6r1bvg%2beLkucGExEFZAzz2FMoRw%3d&risl=&pid=ImgRaw&r=0">
+      <h4>TOYOTA</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://thangs.com/_next/image?url=https:%2F%2Fstorage.googleapis.com%2Fproduction-thangs-public%2Fuploads%2Fattachments%2Fac78a792-5178-4d7e-9b3b-a5dcca1f86b7%2Funtitled.146.png&w=1200&q=75">
+      <h4>SUZUKI</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/hatchback.svg">
+      <h4>HATCHBACK</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/coupe.svg">
+      <h4>COUPE</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/saloon.svg">
+      <h4>SALOON</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-brand-icons/bmw.png">
+      <h4>BMW</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="honda-img.png">
+      <h4>HONDA</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-brand-icons/mercedes-benz.png">
+      <h4>MERCEDES BENZ</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/suv.svg">
+      <h4>SUV</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/estate.svg">
+      <h4>ESTATE</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/convertible.svg">
+      <h4>CONVERTIBLE</h4>
+    </div>
+
+  </div>
+
+  
+
+</section> -->
+
+<section class="brands-section">
+  <h2>Popular brands and body styles</h2>
+  <p class="subtitle">We feature great used and new cars that tick every box.</p>
+
+  <div class="brand-grid">
+
+    <div class="brand-card">
+      <img src="https://wallpapers.com/images/hd/nissan-automotive-brand-logo-gcfu8m53losfzum1.png" alt="Nissan">
+      <h4>NISSAN</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://th.bing.com/th/id/R.22626ec6c81ac8fef140e69489b33d85?rik=d8EqMuslyXpyjA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0209%2f6440%2f9393%2fcollections%2fDiode_Dynamics_SS3_and_Stealth_Tacoma_1200x1200.png%3fv%3d1624296580&ehk=TWirb3A0LrvtFeYK6r1bvg%2beLkucGExEFZAzz2FMoRw%3d&risl=&pid=ImgRaw&r=0" alt="Toyota">
+      <h4>TOYOTA</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://thangs.com/_next/image?url=https:%2F%2Fstorage.googleapis.com%2Fproduction-thangs-public%2Fuploads%2Fattachments%2Fac78a792-5178-4d7e-9b3b-a5dcca1f86b7%2Funtitled.146.png&w=1200&q=75" alt="Suzuki">
+      <h4>SUZUKI</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/hatchback.svg" alt="Hatchback">
+      <h4>HATCHBACK</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/coupe.svg" alt="Coupe">
+      <h4>COUPE</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/saloon.svg" alt="Saloon">
+      <h4>SALOON</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-brand-icons/bmw.png" alt="BMW">
+      <h4>BMW</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="honda-img.png" alt="Honda">
+      <h4>HONDA</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-brand-icons/mercedes-benz.png" alt="Mercedes Benz">
+      <h4>MERCEDES BENZ</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/suv.svg" alt="SUV">
+      <h4>SUV</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/estate.svg" alt="Estate">
+      <h4>ESTATE</h4>
+    </div>
+
+    <div class="brand-card">
+      <img src="https://autome.lk/Content/images/car-body-type-icons/convertible.svg" alt="Convertible">
+      <h4>CONVERTIBLE</h4>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="trust-section">
+  <div class="container">
+    <h2>Why Choose Bro Cars UK?</h2>
+    <p class="trust-subtext">
+      We are committed to providing quality used cars with honest service and complete transparency.
+    </p>
+
+    <div class="trust-grid">
+      
+      <div class="trust-box">
+        <div class="icon">✔</div>
+        <h3>Fully HPI Checked</h3>
+        <p>All our vehicles are HPI checked for your peace of mind and security.</p>
+      </div>
+
+      <div class="trust-box">
+        <div class="icon">£</div>
+        <h3>Transparent Pricing</h3>
+        <p>No hidden fees. Competitive and honest pricing on every vehicle.</p>
+      </div>
+
+      <div class="trust-box">
+        <div class="icon">💳</div>
+        <h3>Finance Available</h3>
+        <p>Flexible finance options tailored to suit your budget.</p>
+      </div>
+
+      <div class="trust-box">
+        <div class="icon">🔄</div>
+        <h3>Part Exchange Welcome</h3>
+        <p>Upgrade your car easily with our simple part exchange process.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <a href="https://wa.me/+94769988123" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+   <img src="whatsappicon.png" 
+        alt="WhatsApp Chat">
+</a>
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img src="logo.png" alt="Bro Cars UK Car Sales Logo">
+        <p class="brand-name">BRO CARS</p>
+        <p>The simple and trusted way to buy and sell used cars across the UK.</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">
+            <!-- Facebook SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-4 3.8-4 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.3 0-1.7.8-1.7 1.6V12H17l-.4 3h-2.7v7A10 10 0 0022 12z"/>
+            </svg>
+          </a>
+
+          <a href="#" aria-label="WhatsApp">
+            <!-- WhatsApp SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2a10 10 0 00-8.6 15.2L2 22l4.9-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1112 20zm4.2-6.1c-.2-.1-1.3-.6-1.5-.7s-.3-.1-.4.1-.6.7-.7.8-.2.2-.4.1a6.6 6.6 0 01-1.9-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.3.1-.4l.3-.3.1-.3c.1-.1 0-.2 0-.3l-.7-1.6c-.2-.4-.4-.3-.6-.3h-.5a1 1 0 00-.7.3 3 3 0 00-1 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.6 3.8 5.4 5.4 0 002.4.5 2 2 0 001.5-.9 1.6 1.6 0 00.1-1c-.1-.1-.2-.1-.4-.2z"/>
+            </svg>
+          </a>
+
+          <a href="#" aria-label="X">
+            <!-- X SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M18 2h3l-7 8 8 12h-6l-5-8-7 8H1l8-9L1 2h6l4 7 7-7z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="vehicles.html">Our vehicles</a>
+        <!-- <a href="sell.html">Sell Your Car</a> -->
+        <a href="about.html">About Us</a>
+        <a href="Service.html">Service</a>
+      </div>
+<div class="footer-col contact">
+<h4>Contact</h4>
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+info@brocars.co.uk
+</p>
+
+<p>
+<i class="fa-solid fa-phone"></i>
++44 0000 000000
+</p>
+
+<p>
+<i class="fa-solid fa-location-dot"></i>
+London, UK
+</p>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Bro Cars. All rights reserved. | UK Car Sales</p>
+      <p>Created by WEB builders</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

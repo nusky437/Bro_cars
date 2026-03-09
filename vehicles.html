@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="mobile.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Bro Cars</title>
+  <meta name="description" content="Learn about Bro Cars, a trusted UK car sales marketplace helping customers buy and sell used cars quickly and securely across the United Kingdom." />
+  <meta name="keywords" content="UK car sales, buy cars UK, sell cars UK, used cars UK, car marketplace UK, Bro Cars UK" />
+  <meta name="author" content="Bro Cars UK" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.brocars.co.uk/about.html" />
+
+  <!-- Open Graph (Social Media SEO) -->
+  <meta property="og:title" content="About Bro Cars | UK Online Car Marketplace" />
+  <meta property="og:description" content="Bro Cars is a UK-based online platform connecting buyers and sellers across the United Kingdom." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.brocars.co.uk/about.html" />
+  <meta property="og:image" content="https://www.brocars.co.uk/images/cover.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Bro Cars UK" />
+  <meta name="twitter:description" content="Trusted UK car marketplace to buy and sell used cars easily." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="vehicles-extra.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+   <a href="index.html" class="nav-logo" aria-label="Bro Cars Home">
+   <img src="logo.png" alt="Bro Cars UK Car Sales Logo" style="height: 150px; width: auto; margin-top: 32%; margin-left: -10%;">
+  <span class="logo-text" style="margin-left: -30px; font-size: 30px;">BRO <span class="highlight" style="font-size: 30px;">CARS</span></span>
+</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="vehicles.html"class="active">Our vehicles</a></li>
+      <!-- <li><a href="sell.html">Sell</a></li> -->
+      <li><a href="about.html">About</a></li>
+      <li><a href="Service.html">Service</a></li>
+      <!-- <li><a href="faq.html">FAQ</a></li> -->
+      <li><a href="contact.html">Contact</a></li>
+      <!-- <li><a href="signin.html">Sign In</a></li> -->
+      <!-- <li><a href="register.html" class="btn btn-red">Register</a></li> -->
+    </ul>
+  </div>
+</nav>
+
+<!-- PAGE COVER -->
+<div class="page-cover" aria-hidden="true">
+  <img src="car1.jpeg" alt="Car dealership lot with multiple vehicles" loading="eager" />
+  <div class="page-cover-content">
+    <h1>Browse Cars</h1>
+    <p>Find your perfect used car across the UK.</p>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<section class="section">
+  <div class="container">
+
+
+    <h3>Our vehicles</h3>
+    <br><br>
+
+    <!-- CAR GRID -->
+    <div class="cars-grid" id="carsGrid">
+
+      <article class="car-card" data-fuel="petrol" data-trans="automatic" data-name="BMW 3 Series" data-price="22500" data-sold="true">
+        <div class="car-card-img">
+          <img src="car4.jpeg" alt="" loading="lazy" />
+        <span class="sold-tag">SOLD</span>
+        </div>
+        <div class="car-card">
+</div>
+        <div class="car-card-body">
+          <h3>BMW 3 Series</h3>
+          <div class="car-meta">
+            <span>2020</span><span>32,000 km</span><span>Petrol</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£22,500</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-fuel="petrol" data-trans="manual" data-name="Ford Focus" data-price="9990" data-sold="false">
+        <div class="car-card-img">
+          <img src="A1.jpeg" alt="2019 Ford Focus" loading="lazy" />
+          <span class="available-tag">AVAILABLE</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Ford Focus</h3>
+          <div class="car-meta">
+            <span>2019</span><span>48,000 km</span><span>Petrol</span><span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£9,990</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-fuel="hybrid" data-trans="automatic" data-name="Toyota Corolla" data-price="19750" data-sold="true">
+        <div class="car-card-img">
+          <img src="car1.jpeg" alt="2021 Toyota Corolla Hybrid" loading="lazy" />
+        <span class="sold-tag">SOLD</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Toyota Corolla</h3>
+          <div class="car-meta">
+            <span>2021</span><span>18,000 km</span><span>Hybrid</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£19,750</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-fuel="diesel" data-trans="automatic" data-name="Audi A4" data-price="15200" data-sold="false">
+        <div class="car-card-img">
+          <img src="s3.jpeg" alt="2018 Audi A4 Diesel" loading="lazy" />
+          <span class="sold-tag">SOLD</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Audi A4</h3>
+          <div class="car-meta">
+            <span>2018</span><span>61,000 km</span><span>Diesel</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£15,200</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-fuel="electric" data-trans="automatic" data-name="Tesla Model 3" data-price="29900" data-sold="false">
+        <div class="car-card-img">
+          <img src="car2.jpeg" alt="2022 Tesla Model 3 Electric" loading="lazy" />
+          <span class="sold-tag">SOLD</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Tesla Model 3</h3>
+          <div class="car-meta">
+            <span>2022</span><span>12,000 km</span><span>Electric</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£29,900</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- <article class="car-card" data-fuel="diesel" data-trans="manual" data-name="Volkswagen Golf" data-price="8450" data-sold="false">
+        <div class="car-card-img">
+          <img src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=600&q=70&auto=format&fit=crop" alt="2017 Volkswagen Golf Diesel" loading="lazy" />
+          <span class="available-tag">AVAILABLE</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Volkswagen Golf</h3>
+          <div class="car-meta">
+            <span>2017</span><span>74,000 km</span><span>Diesel</span><span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£8,450</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article> -->
+
+      <article class="car-card" data-fuel="petrol" data-trans="manual" data-name="Honda Civic" data-price="7200" data-sold="false">
+        <div class="car-card-img">
+          <img src="sold2.jpeg" alt="2016 Honda Civic Petrol" loading="lazy" />
+          <span class="sold-tag">SOLD</span>
+        </div>
+        <div class="car-card-body">
+          <h3>Honda Civic</h3>
+          <div class="car-meta">
+            <span>2016</span><span>88,000 km</span><span>Petrol</span><span>Manual</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£7,200</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-fuel="hybrid" data-trans="automatic" data-name="Nissan Leaf" data-price="14500" data-sold="true">
+        <div class="car-card-img">
+          <img src="sold 1.jpeg" alt="2020 Nissan Leaf Electric" loading="lazy" />
+          <span class="sold-tag">SOLD</span>
+          
+        </div>
+        <div class="car-card-body">
+          <h3>Nissan Leaf</h3>
+          <div class="car-meta">
+            <span>2020</span><span>27,000 km</span><span>Hybrid</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£14,500</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- NO IMAGE CARD — Coming Soon style -->
+      <article class="car-card car-card--coming-soon" data-fuel="petrol" data-trans="automatic" data-name="Mercedes C-Class" data-price="31000" data-sold="false">
+        <div class="car-card-img coming-soon-img">
+          <div class="coming-soon-inner">
+            <div class="cs-icon"><i class="fa-solid fa-car"></i></div>
+            <p class="cs-label">Coming Soon</p>
+            <span class="cs-dot"></span><span class="cs-dot"></span><span class="cs-dot"></span>
+          </div>
+          
+        </div>
+        <div class="car-card-body">
+          <h3>Mercedes C-Class</h3>
+          <div class="car-meta">
+            <span>2021</span><span>21,000 km</span><span>Petrol</span><span>Automatic</span>
+          </div>
+          <div class="car-card-footer">
+            <span class="car-price">£31,000</span>
+            <a href="#" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+
+
+  </div>
+</section>
+
+
+
+<div id="bro-lightbox" role="dialog" aria-modal="true" aria-label="Car photo gallery">
+  <button id="lb-close" aria-label="Close gallery">✕</button>
+  <div class="lb-img-wrap">
+    <button class="lb-arrow left"  id="lb-prev" aria-label="Previous photo">&#8592;</button>
+    <img id="lb-main-img" src="" alt="Car photo" />
+    <button class="lb-arrow right" id="lb-next" aria-label="Next photo">&#8594;</button>
+  </div>
+  <div id="lb-thumbs"></div>
+  <div id="lb-counter"></div>
+</div>
+
+
+<script>
+(function () {
+  const carGalleries = {
+    // "BMW 3 Series": [
+    //   "car4.jpeg",
+    //   "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1543796076-c8dd652e53de?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80"
+    // ],
+    "Ford Focus": [
+      "A2.jpeg",
+      "A3.jpeg",
+      "A4.jpeg",
+      "A5.jpeg",
+      "A6.jpeg",
+      "A7.jpeg",
+      "A8.jpeg"
+
+    ],
+    // "Toyota Corolla": [
+    //   "car1.jpeg",
+    //   "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80"
+    // ],
+    // "Audi A4": [
+    //   "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&q=80"
+    // ],
+    // "Tesla Model 3": [
+    //   "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1536700503339-1e4b06520771?w=800&q=80"
+    // ],
+    // "Volkswagen Golf": [
+    //   "https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80"
+    // ],
+    // "Honda Civic": [
+    //   "https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?w=800&q=80"
+    // ],
+    // "Nissan Leaf": [
+    //   "car2.jpeg",
+    //   "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80",
+    //   "https://images.unsplash.com/photo-1559416523-140ddc3d238c?w=800&q=80"
+    // ],
+    // "Mercedes C-Class": [
+      // "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80",
+      // "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+      // "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&q=80"
+    // ]
+  };
+
+  // ── State ──
+  let currentImages = [];
+  let currentIndex  = 0;
+
+  // ── DOM refs ──
+  const lb       = document.getElementById('bro-lightbox');
+  const lbImg    = document.getElementById('lb-main-img');
+  const lbThumbs = document.getElementById('lb-thumbs');
+  const lbCount  = document.getElementById('lb-counter');
+  const btnClose = document.getElementById('lb-close');
+  const btnPrev  = document.getElementById('lb-prev');
+  const btnNext  = document.getElementById('lb-next');
+
+  // ── Open lightbox ──
+  function openLightbox(images, startIndex) {
+    currentImages = images;
+    currentIndex  = startIndex || 0;
+    renderLightbox();
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  // ── Close ──
+  function closeLightbox() {
+    lb.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // ── Render current image + thumbs ──
+  function renderLightbox() {
+    lbImg.style.opacity = '0';
+    setTimeout(() => {
+      lbImg.src = currentImages[currentIndex];
+      lbImg.style.opacity = '1';
+    }, 100);
+
+    lbCount.textContent = (currentIndex + 1) + ' / ' + currentImages.length;
+
+    // Thumbs
+    lbThumbs.innerHTML = '';
+    currentImages.forEach((src, i) => {
+      const t = document.createElement('img');
+      t.src = src;
+      t.alt = 'Photo ' + (i + 1);
+      if (i === currentIndex) t.classList.add('active');
+      t.addEventListener('click', () => { currentIndex = i; renderLightbox(); });
+      lbThumbs.appendChild(t);
+    });
+
+    // Show/hide arrows
+    btnPrev.style.visibility = currentImages.length > 1 ? 'visible' : 'hidden';
+    btnNext.style.visibility = currentImages.length > 1 ? 'visible' : 'hidden';
+  }
+
+  // ── Arrow navigation ──
+  btnPrev.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+    renderLightbox();
+  });
+  btnNext.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % currentImages.length;
+    renderLightbox();
+  });
+
+  // ── Close on button / overlay click ──
+  btnClose.addEventListener('click', closeLightbox);
+  lb.addEventListener('click', (e) => { if (e.target === lb) closeLightbox(); });
+
+  // ── Keyboard navigation ──
+  document.addEventListener('keydown', (e) => {
+    if (!lb.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft')  { currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length; renderLightbox(); }
+    if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % currentImages.length; renderLightbox(); }
+    if (e.key === 'Escape')     closeLightbox();
+  });
+
+  // ── Attach click to all car card images ──
+  document.querySelectorAll('.car-card').forEach(card => {
+    const titleEl = card.querySelector('h3');
+    const imgWrap = card.querySelector('.car-card-img');
+    if (!titleEl || !imgWrap) return;
+
+    const carName = titleEl.textContent.trim();
+    const images  = carGalleries[carName];
+    if (!images || images.length === 0) return;
+
+    // Don't open lightbox on coming-soon cards (no real image)
+    if (card.classList.contains('car-card--coming-soon')) return;
+
+    imgWrap.addEventListener('click', () => openLightbox(images, 0));
+  });
+
+
+})();
+</script>
+
+
+
+<!-- FOOTER -->
+  <a href="https://wa.me/+94769988123" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+   <img src="whatsappicon.png" 
+        alt="WhatsApp Chat">
+</a>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img src="logo.png" alt="Bro Cars UK Car Sales Logo">
+        <p class="brand-name">BRO CARS</p>
+        <p>The simple and trusted way to buy and sell used cars across the UK.</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">
+            <!-- Facebook SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M22 12a10 10 0 10-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-4 3.8-4 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.3 0-1.7.8-1.7 1.6V12H17l-.4 3h-2.7v7A10 10 0 0022 12z"/>
+            </svg>
+          </a>
+
+          <a href="#" aria-label="WhatsApp">
+            <!-- WhatsApp SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2a10 10 0 00-8.6 15.2L2 22l4.9-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1112 20zm4.2-6.1c-.2-.1-1.3-.6-1.5-.7s-.3-.1-.4.1-.6.7-.7.8-.2.2-.4.1a6.6 6.6 0 01-1.9-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.3.1-.4l.3-.3.1-.3c.1-.1 0-.2 0-.3l-.7-1.6c-.2-.4-.4-.3-.6-.3h-.5a1 1 0 00-.7.3 3 3 0 00-1 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.6 3.8 5.4 5.4 0 002.4.5 2 2 0 001.5-.9 1.6 1.6 0 00.1-1c-.1-.1-.2-.1-.4-.2z"/>
+            </svg>
+          </a>
+
+          <a href="#" aria-label="X">
+            <!-- X SVG -->
+            <svg viewBox="0 0 24 24">
+              <path d="M18 2h3l-7 8 8 12h-6l-5-8-7 8H1l8-9L1 2h6l4 7 7-7z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="vehicles.html">Our vehicles</a>
+        <!-- <a href="sell.html">Sell Your Car</a> -->
+        <a href="about.html">About Us</a>
+        <a href="Service.html">Service</a>
+      </div>
+
+    <div class="footer-col contact">
+  <h4>Contact</h4>
+
+  <p>
+    <i class="fa-solid fa-envelope"></i>
+    info@brocars.co.uk
+  </p>
+
+  <p>
+    <i class="fa-solid fa-phone"></i>
+    +44 0000 000000
+  </p>
+
+  <p>
+    <i class="fa-solid fa-location-dot"></i>
+    London, UK
+  </p>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+     <p>&copy; 2025 Bro Cars. All rights reserved. | UK Car Sales</p>
+      <p>Created by WEB builders</p>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
